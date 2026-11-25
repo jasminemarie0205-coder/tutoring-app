@@ -1,0 +1,9 @@
+student_id,name,email,section,intro,struggling_with,classes_missed,status,applied_date
+S1,Ava Brooks,ava.brooks@example.edu,3,Loves baking and true crime podcasts,recursion;tables,1,matched,2026-09-20
+S2,Ben Torres,ben.torres@example.edu,8,Plays club soccer,recursion,0,matched,2026-09-21
+S3,Chloe Kim,chloe.kim@example.edu,9,Into film photography,lists;functions,2,matched,2026-09-25
+S4,Dev Shah,dev.shah@example.edu,3,Building a mechanical keyboard,data definitions,0,done,2026-09-18
+S5,Emma Lewis,emma.lewis@example.edu,8,Runs a plant account on Instagram,tables;lists,1,waitlisted,2026-09-28
+S6,Finn Murphy,finn.murphy@example.edu,9,Learning to skateboard,functions,0,waitlisted,2026-10-02
+S7,Grace Liu,grace.liu@example.edu,3,Collects vinyl records,recursion;lists,1,pending,2026-10-20
+S8,Hugo Silva,hugo.silva@example.edu,8,Big into chess,tables,7,not_approved,2026-10-15

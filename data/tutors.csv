@@ -1,0 +1,5 @@
+tutor_id,name,email,intro,strong_topics
+T1,Maya Chen,maya.chen@example.edu,Second-year CS major who loves explaining recursion,recursion;tables
+T2,Leo Ramirez,leo.ramirez@example.edu,Took CS 2000 last year and remembers what was confusing,lists;functions
+T3,Priya Patel,priya.patel@example.edu,Data science major and big fan of tables,tables;data definitions
+T4,Sam Okafor,sam.okafor@example.edu,Patient explainer who loves drawing diagrams,recursion;lists
