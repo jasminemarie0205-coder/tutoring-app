@@ -93,13 +93,29 @@ def log_session(student_id):
         set_status(student_id, "done")
         fill_waitlist()
         
-def approve_student(student_id):
-    assign_student(student_id)
+
 
 def reject_student(student_id):
     set_status(student_id, "not_approved")
     
 
+def save_all():
+    students.to_csv("data/students.csv", index=False)
+    tutors.to_csv("data/tutors.csv", index=False)
+    matches.to_csv("data/matches.csv", index=False)
+    sessions.to_csv("data/sessions.csv", index=False)
+
+def total_open_slots():
+    total = 0
+    for tutor_id in tutors["tutor_id"]:
+        total += MAX_STUDENTS - count_active_students(tutor_id)
+    return total
+
+def approve_student(student_id):
+    fill_waitlist()
+    assign_student(student_id)
+    
+    
 if __name__ == "__main__":
 
     # Part 1: checks that don't change any data
